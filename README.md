@@ -3,8 +3,6 @@
   <em>🦀 Rustacean at Heart</em>
 </p>
 
-<br>
-
 ## 🐝 About Me
 
 - 🎓 I'm a Computer Science and Information Engineering student.
@@ -49,7 +47,6 @@
     <summary>💭 Fun bits</summary>
         <br>
         It compiled. The borrow checker approved. But she never ran the binary. <br><br>
-        
 <details>
     <summary>💔</summary>
     Even the borrow checker can’t protect a heart from a dangling lifetime.
@@ -61,28 +58,28 @@
 <br>
 
 ```rust
-  use std::fmt;
+use std::fmt;
 
-  struct Heart<'a> {
-      memory: &'a str,
-  }
+struct Heart<'a> {
+    memory: &'a str,
+}
 
-  fn main() {
-      let confession = String::from("I like you, but I can't express it safely...");
+fn main() {
+    let confession = String::from("I like you, but I can't express it safely...");
 
-      let safe_love = Heart { memory: &confession };
+    let safe_love = Heart { memory: &confession };
 
-      // drop(confession); // error[E0505]: cannot move out of `confession` because it is borrowed
+    // drop(confession); // error[E0505]: cannot move out of `confession` because it is borrowed
 
-      println!("💌 Love is safe: {}", safe_love.memory);
-      println!("🦀 Segfaultless in Kaohsiung. Thanks, borrow checker.");
-  }
+    println!("💌 Love is safe: {}", safe_love.memory);
+    println!("🦀 Segfaultless in Kaohsiung. Thanks, borrow checker.");
+}
 
-  impl fmt::Display for Heart<'_> {
+impl fmt::Display for Heart<'_> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "{}", self.memory)
     }
-  }
+}
 
 ```
 </details>
