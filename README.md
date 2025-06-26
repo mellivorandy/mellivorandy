@@ -111,7 +111,7 @@ impl fmt::Display for Heart<'_> {
 
 ## Acknowledgements
 
-- Icons used in this README are provided by [Devicon](https://devicon.dev/).
+- Icons used in this README are provided by [Devicon](https://devicon.dev/). Huge thanks to the Devicon team for their incredible work on this amazing open-source project!
 
 - External links point to official websites of the respective technologies for learning or attribution purposes.
 
