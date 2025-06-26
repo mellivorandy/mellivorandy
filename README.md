@@ -61,8 +61,6 @@
     mellivorandy [at] gmail [dot] com
   </details>
 
-<br>
-
 ---
 
 <br>
