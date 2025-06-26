@@ -113,7 +113,7 @@
 ### 🗄️ Databases
 
 <a href="https://www.mysql.com/" target="_blank" style="text-decoration:none;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" alt="MySQL" /> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" alt="MySQL" />
 </a><a href="https://www.postgresql.org/" target="_blank" style="text-decoration:none;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" alt="PostgreSQL" />
 </a>
