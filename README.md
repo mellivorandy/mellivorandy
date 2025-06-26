@@ -34,7 +34,7 @@
 
 - <details>
     <summary>📧 My email</summary>
-    anydoyi [at] gmail [dot] com
+    mellivorandy [at] gmail [dot] com
   </details>
 
 <br>
