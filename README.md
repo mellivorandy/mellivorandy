@@ -1,6 +1,6 @@
 <h1 align="center">Hello, I'm An-I Yu 👋</h1>
 <p align="center">
-  <em>🦀 Rustacean at Heart</em>
+  🦀 <em> Rustacean at Heart </em>
 </p>
 
 ## 🐝 About Me
