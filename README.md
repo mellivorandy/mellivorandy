@@ -3,7 +3,7 @@
   🦀 <em> Rustacean at Heart </em>
 </p>
 
-## 🐝 About Me
+## 🐳 About Me
 
 - 🎓 I'm a Computer Science and Information Engineering student.
 - 🧵 Passionate about **system-level programming**.
