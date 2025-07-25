@@ -6,8 +6,6 @@ because the core was written in K&R, and it still compiles. </em>
 
 <br>
 
-<br>
-
 ## 🐳 About Me
 
 - 🎓 I'm a Computer Science and Information Engineering student.
