@@ -11,8 +11,6 @@ because the core was written in K&R, and it still compiles. </em>
 - 🎓 I'm a Computer Science and Information Engineering student.
 - 🧵 Passionate about **system-level programming**.
 - 💡 I believe in learning by **doing**, **sharing**, and **breaking things** to build better ones.
-- ⚡ Fun fact: The value is immutable. Just like that one conversation you should’ve ended.
-  > `` error[E0596]: cannot borrow `x` as mutable, as it is not declared as mutable ``
 
 <br>
 
@@ -20,7 +18,7 @@ because the core was written in K&R, and it still compiles. </em>
 
 ### 🌟 Programming Languages
 
-<a href="https://cppreference.com/w/c.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="40" alt="C" /></a><a href="https://isocpp.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++" /></a><a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="40" alt="C#" /></a><a href="https://www.rust-lang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" width="40" alt="Rust" /></a><a href="https://www.java.com/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" alt="Java" /></a><a href="https://kotlinlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" width="40" alt="Kotlin" /></a><a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" alt="Python" /></a><a href="https://www.php.net/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" alt="PHP" /></a><a href="https://laravel.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" alt="Laravel" /></a><a href="https://react.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" alt="React" /></a><a href="https://nodejs.org/en"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" alt="Node.js" /></a><a href="https://html.spec.whatwg.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" alt="HTML5" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" /></a><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" alt="CSS3" /></a>
+<a href="https://cppreference.com/w/c.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="40" alt="C" /></a><a href="https://isocpp.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++" /></a></a><a href="https://www.rust-lang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" width="40" alt="Rust" /></a></a><a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" alt="Python" /></a><a href="https://www.php.net/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" alt="PHP" /></a><a href="https://laravel.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" alt="Laravel" /></a><a href="https://react.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" alt="React" /></a><a href="https://nodejs.org/en"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" alt="Node.js" /></a><a href="https://html.spec.whatwg.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" alt="HTML5" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" /></a><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" alt="CSS3" /></a>
 
 ---
 
@@ -82,6 +80,14 @@ because the core was written in K&R, and it still compiles. </em>
 
 <br>
 
+<details>
+    <summary>⚡</summary>
+    The value is immutable. Just like that one conversation you should’ve ended. <br>
+    error[E0596]: cannot borrow `x` as mutable, as it is not declared as mutable
+</details>
+
+<br>
+
 ```rust
 use std::fmt;
 
@@ -96,7 +102,7 @@ fn main() {
 
     // drop(confession); // error[E0505]: cannot move out of `confession` because it is borrowed
 
-    println!("💌 Love is safe: {}", safe_love.memory);
+    println!("💌 Love is safe: {}", safe_love);
     println!("🦀 Segfaultless in Kaohsiung. Thanks, borrow checker.");
 }
 
@@ -110,7 +116,7 @@ impl fmt::Display for Heart<'_> {
 
 </details>
 
-<br>
+
 
 ## Acknowledgements
 
