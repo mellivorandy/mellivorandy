@@ -9,8 +9,10 @@ because the core was written in K&R, and it still compiles. </em>
 ## 🐳 About Me
 
 - 🎓 I'm a Computer Science and Information Engineering student.
-- 🧵 Passionate about **system-level programming**.
-- 💡 I believe in learning by **doing**, **sharing**, and **breaking things** to build better ones.
+- 🧵 Passionate about **system-level programming** and **Artificial Intelligence**.
+- 💡 I believe in learning by doing, sharing, and breaking things to build better ones.
+- ⚡ Fun fact: The value is immutable. Just like that one conversation you should’ve ended.
+  > `` error[E0596]: cannot borrow `x` as mutable, as it is not declared as mutable ``
 
 <br>
 
