@@ -116,7 +116,7 @@ impl fmt::Display for Heart<'_> {
 
 </details>
 
-
+<br>
 
 ## Acknowledgements
 
