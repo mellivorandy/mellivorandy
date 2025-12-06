@@ -49,8 +49,8 @@ because the core was written in K&R, and it still compiles. </em>
 ## 🏆 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mellivorandy&show_icons=true&theme=tokyonight" width="420" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mellivorandy&layout=compact&theme=tokyonight" width="320" />
+  <img src="https://github-readme-stats-hazel-psi-onrfcubz38.vercel.app/api?username=mellivorandy&show_icons=true&theme=tokyonight" width="420" />
+  <img src="https://github-readme-stats-hazel-psi-onrfcubz38.vercel.app/api/top-langs/?username=mellivorandy&layout=compact&theme=tokyonight" width="320" />
 </p>
 
 <br>
